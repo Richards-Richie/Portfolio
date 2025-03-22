@@ -1,7 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/portfolio.png";
-import projImg2 from "../assets/img/todolist.png";
+import projImg2 from "../assets/img/tapconnect.png";
 import projImg3 from "../assets/img/MemoGram.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 //import 'animate.css';
@@ -15,12 +15,12 @@ const Projects=()=>{
                 imgUrl: projImg1,
             },
             {
-                title: "Todo-List",
-                description: "Design & Development",
+                title: "TapConnect ",
+                description: "an app that takes contact sharing to a new level of convenience",
                 imgUrl: projImg2,
             },
             {
-                title: "MemoGram",
+                title: "",
                 description: "Design & Development",
                 imgUrl: projImg3,
             },
@@ -68,7 +68,7 @@ const Projects=()=>{
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="third">
                                         <p>Portfolio helped me to get a good experience on using different front end technologies</p>
-                                        <p>Todo list and MemoGram helped me to get experience with complete Fullstack development</p>
+                                        <p>TapConnect and MemoGram helped me to get experience with complete Fullstack development both web and mobile development</p>
                                         </Tab.Pane>
                                     </Tab.Content>
                                     </Tab.Container>
