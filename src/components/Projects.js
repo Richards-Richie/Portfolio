@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/portfolio.png";
+import projImg1 from "../assets/img/tomscan.png";
 import projImg2 from "../assets/img/tapconnect.png";
-import projImg3 from "../assets/img/MemoGram.png";
+import projImg3 from "../assets/img/mockmate.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 //import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -10,18 +10,18 @@ import TrackVisibility from 'react-on-screen';
 const Projects=()=>{
     const projects=[
             {
-                title: "Portflio",
-                description: "Design & Development",
+                title: "TomScan",
+                description: "AI agri-app",
                 imgUrl: projImg1,
             },
             {
                 title: "TapConnect ",
-                description: "an app that takes contact sharing to a new level of convenience",
+                description: " contact sharing to a new level of convenience",
                 imgUrl: projImg2,
             },
             {
-                title: "",
-                description: "Design & Development",
+                title: "MockMate",
+                description: "MockInterview at a new level..",
                 imgUrl: projImg3,
             },
         ];
@@ -68,7 +68,7 @@ const Projects=()=>{
                                         </Tab.Pane>
                                         <Tab.Pane eventKey="third">
                                         <p>Portfolio helped me to get a good experience on using different front end technologies</p>
-                                        <p>TapConnect and MemoGram helped me to get experience with complete Fullstack development both web and mobile development</p>
+                                        <p>TapConnect and MockMate helped me to get experience with complete Fullstack development both web and mobile development</p>
                                         </Tab.Pane>
                                     </Tab.Content>
                                     </Tab.Container>

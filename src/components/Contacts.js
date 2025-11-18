@@ -9,7 +9,7 @@ export const Contacts=()=>{
     const handleSubmit=(e)=>{
         e.preventDefault();
         setData(true);
-        emailjs.sendForm('service_toztshj', 'template_ub6uc6e', form.current, '6yS8PDzeeJQXIGxPy')
+        emailjs.sendForm('service_toztshj', "template_ub6uc6e", form.current, '6yS8PDzeeJQXIGxPy')
         .then((result) => {
             alert("Message sent Successfully")
             setData(false);

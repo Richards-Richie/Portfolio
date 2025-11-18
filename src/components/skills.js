@@ -6,6 +6,7 @@ import mongodb from "../assets/img/mongodb.png"
 import Carousel from "react-multi-carousel";
 import python from "../assets/img/python.png"
 import github from "../assets/img/github.png"
+import brain from "../assets/img/brain.png"
 import "react-multi-carousel/lib/styles.css";
 
 
@@ -63,6 +64,10 @@ export const Skills=()=>{
                   <div className='item' >
                     <img src={github} alt="skill1" />
                     <h5>Github</h5>
+                  </div>
+                  <div className='item' >
+                    <img src={brain} alt="skill1" />
+                    <h5>AI/ML</h5>
                   </div>
                 </Carousel>
               </div>
